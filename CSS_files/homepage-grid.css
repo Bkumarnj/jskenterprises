@@ -1,0 +1,36 @@
+.homepage-grid{
+    height: 1500px;
+    width: 400px;
+    border: 5px solid red;
+    padding: 0px;
+    border: none; margin: 0;
+}
+
+.services{
+    width: 1000px;
+    height: 50px;
+    padding: 10px;
+    margin: none;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-size: contain;
+    background-color: rosybrown;
+}
+
+.service-text{
+    font-size: 20px;
+    width: 200px;
+    font-family: ubuntu, sans-serif;
+    font-weight: 600;
+    color: white;
+    margin: 15px;
+    padding-left: 10px; 
+    transition: 0.323s;
+}   
+
+.service-text:hover{
+    border: 1px solid gray;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,98 @@
+body{
+    font-family: ubuntu, sans-serif;
+    margin: 0;
+    padding: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgb(6, 6, 6);
+}
+
+header{
+    background-color: white;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0; right: 0;
+    border-top: none;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    border-left: 1px solid rgb(228, 228, 228);
+    border-right: 1px solid rgb(228, 228, 228);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 100;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+}
+
+.logo{
+    height: 35px;
+    width: 200px;
+    padding-left: 35px;
+}
+
+.right-section{
+    max-width: 750px;
+    padding-right: 15px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+.login{
+    max-width: 200px;
+    max-height: 50px;
+    color: black;
+    padding: 10px; padding-top: 0;
+    display: inline-block;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center; justify-items: center;
+    font-weight: 500;
+}
+
+.content-icon{
+    display: flex;
+    flex-direction: row;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    padding: 0%;
+    padding-left: 4px; padding-right: 4px;
+}
+
+.footer-box{
+    vertical-align: bottom;
+    max-width: 1080px;
+    max-height: 100px;
+    background-color: aqua;
+    position: fixed;  right: 0;bottom:0;left:0;
+    justify-content: center;
+}
