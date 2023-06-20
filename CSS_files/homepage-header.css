@@ -4,12 +4,12 @@ body{
     padding: 80px;
     padding-left: 25px;
     padding-right: 25px;
-    background-color: rgb(6, 6, 6);
+    background-color: rgb(13, 8, 165);
 }
 
 header{
     background-color: white;
-    height: 60px;
+    height: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -25,22 +25,7 @@ header{
     z-index: 100;
 }
 
-a:link {
-    text-decoration: none;
-    color: black;
-}
-
-a:visited {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    text-decoration: none;
-    color: black;
-}
-
-a:active {
+a:link, a:visited, a:hover, a:active {
     text-decoration: none;
     color: black;
 }
@@ -70,9 +55,11 @@ a:active {
     max-width: 200px;
     max-height: 50px;
     color: black;
-    padding: 10px; padding-top: 0;
+    padding: 10px;
     display: inline-block;
     font-size: 20px;
+    display: grid;
+    vertical-align: middle;
     align-items: center;
     justify-content: center; justify-items: center;
     font-weight: 500;
@@ -81,8 +68,8 @@ a:active {
 .content-icon{
     display: flex;
     flex-direction: row;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
     padding: 0%;
     padding-left: 4px; padding-right: 4px;
@@ -90,9 +77,9 @@ a:active {
 
 .footer-box{
     vertical-align: bottom;
-    max-width: 1080px;
-    max-height: 100px;
-    background-color: aqua;
+    max-width: 1fr;
+    height: 100px;
+    background-color: goldenrod;
     position: fixed;  right: 0;bottom:0;left:0;
     justify-content: center;
 }

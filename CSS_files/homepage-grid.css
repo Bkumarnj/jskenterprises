@@ -1,36 +1,39 @@
 .homepage-grid{
     height: 1500px;
-    width: 400px;
-    border: 5px solid red;
+    width: 1fr;
+    border: 5px solid;
     padding: 0px;
     border: none; margin: 0;
 }
 
 .services{
-    width: 1000px;
-    height: 50px;
+    width: 1fr;
+    height: 75px;
     padding: 10px;
     margin: none;
-    border: 1px solid gray;
+    border: 1px solid gold;
     border-radius: 20px;
     background-size: contain;
-    background-color: rosybrown;
+    background-color: gold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .service-text{
     font-size: 20px;
-    width: 200px;
+    width: 1fr;
     font-family: ubuntu, sans-serif;
     font-weight: 600;
-    color: white;
+    color: rgb(13, 8, 165);
     margin: 15px;
-    padding-left: 10px; 
-    transition: 0.323s;
+    padding: 10px; 
+    transition: 1ms;
 }   
 
 .service-text:hover{
-    border: 1px solid gray;
+    border: 1px solid rgb(13, 8, 165);
     border-radius: 25px;
-    background-color: white;
-    color: black;
+    background-color: rgb(13, 8, 165);
+    color: goldenrod;
 }
