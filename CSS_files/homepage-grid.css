@@ -1,7 +1,11 @@
 .intro-box{
+    margin: 10px;
     width: 1fr;
-    height: 100px;
-    padding: 10px;
+    height: 200px;
+    padding: 10px; padding-top: 0px; padding-bottom: 20px;
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    text-align: center;
     font-size: 35px;
     font-family: Poppins, Arial;
     border: 1px solid goldenrod;
