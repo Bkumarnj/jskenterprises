@@ -13,34 +13,37 @@
     color: gold;
 }
 
-.services{
+.services-menu{
     width: 1fr;
-    height: 75px;
-    padding: 10px;
+    height: 40px;
     margin: none;
-    border: 1px solid gold;
-    border-radius: 20px;
-    background-size: contain;
-    background-color: gold;
+    border: 2px solid goldenrod;
+    border-radius: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: relative;
 }
 
 .service-text{
-    font-size: 20px;
+    font-size: 25px;
     width: 1fr;
+    margin: 0px;
     font-family: ubuntu, sans-serif;
     font-weight: 600;
-    color: rgb(13, 8, 165);
-    margin: 15px;
-    padding: 10px; 
-    transition: 1ms;
+    color: gold; 
+    background-color: rgb(13, 8, 165);
+    border: 1px solid rgb(13, 8, 165);
+    border-radius: 25px;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
 }   
 
 .service-text:hover{
-    border: 1px solid rgb(13, 8, 165);
+    height: 40px;
+    padding-left: 10px; padding-right: 10px;
+    border: 1px solid goldenrod;
     border-radius: 25px;
-    background-color: rgb(13, 8, 165);
-    color: goldenrod;
+    background-color: goldenrod;
+    color: rgb(13, 8, 165);
 }
