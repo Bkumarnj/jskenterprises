@@ -1,16 +1,51 @@
 .intro-box{
-    margin: 10px;
+    margin: 15px;
     width: 1fr;
-    height: 200px;
+    height: 400px;
     padding: 10px; padding-top: 0px; padding-bottom: 20px;
     border: 2px solid goldenrod;
     border-radius: 15px;
+    border: 1px solid goldenrod;
+    background-color: rgb(13, 8, 165);
+}
+
+.intro-text{
+    margin: 15px;
     text-align: center;
     font-size: 35px;
     font-family: Poppins, Arial;
-    border: 1px solid goldenrod;
-    background-color: rgb(13, 8, 165);
     color: gold;
+}
+
+.intro-grid{
+    display: grid;
+    display: grid;
+    grid-template-columns: 700px 600px;
+}
+
+.subtext{
+    width: 1fr; max-width: 650px;
+    display: grid;
+    grid-template-rows: auto;
+    margin-left: 25px;
+}
+
+.intro-subtext-a, .intro-subtext-b{
+    margin-left: 10px; margin-right: 10px;
+    margin-top: none; margin-bottom: none;
+    height: 130px;
+    font-size: 20px;
+    color: white;
+}
+
+.intro-image{
+    margin-left: 50px; margin-right: 50px;
+}
+
+.card{
+    width: 1fr; max-width: 650px;
+    height: 1fr; max-height: 300px;
+    object-fit: contain;
 }
 
 .services-menu{
