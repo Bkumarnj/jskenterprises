@@ -51,7 +51,7 @@
 .services-menu{
     width: 1fr;
     height: 40px;
-    margin: none;
+    margin: none; margin-bottom: 30px;
     border: 2px solid goldenrod;
     border-radius: 25px;
     display: flex;
@@ -81,4 +81,19 @@
     border-radius: 25px;
     background-color: goldenrod;
     color: rgb(13, 8, 165);
+}
+
+.homepage-grid {
+    height: 600px; width: 1fr;
+    border: 2px solid none;
+    border-radius: 25px;
+    margin-bottom: 100px;
+    vertical-align: middle; align-items: center;
+    display: grid; grid-template-columns: 650px 1fr;
+}
+
+.homepage-grid img{
+    height: 600px; width: 1fr;
+    object-fit: contain;
+    border-bottom-left-radius: 25px; border-top-left-radius: 25px;
 }
