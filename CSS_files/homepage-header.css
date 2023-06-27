@@ -1,10 +1,13 @@
 body{
     font-family: ubuntu, sans-serif;
     margin: 0;
-    padding: 80px;
-    padding-left: 25px;
-    padding-right: 25px;
     background-color: rgb(13, 8, 165);
+}
+
+main {
+    padding: 80px;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 header{
@@ -76,9 +79,10 @@ a:link, a:visited, a:hover, a:active {
 }
 
 footer{
-    bottom: 0; right: 0; left: 0;
+    bottom: 0; left: 0;
     vertical-align: bottom;
-    max-width: 1fr;
+    max-width: 1fr; width: 1300px;
     height: 100px;
     background-color: goldenrod;
+    padding-left: -25px;
 }
